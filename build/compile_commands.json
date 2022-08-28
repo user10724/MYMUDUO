@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/Channel.o -c /home/zhouxxx/MYMUDUO/Channel.cc",
+  "file": "/home/zhouxxx/MYMUDUO/Channel.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/DefaultPoller.o -c /home/zhouxxx/MYMUDUO/DefaultPoller.cc",
+  "file": "/home/zhouxxx/MYMUDUO/DefaultPoller.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoop.o -c /home/zhouxxx/MYMUDUO/EventLoop.cc",
+  "file": "/home/zhouxxx/MYMUDUO/EventLoop.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/InetAddress.o -c /home/zhouxxx/MYMUDUO/InetAddress.cc",
+  "file": "/home/zhouxxx/MYMUDUO/InetAddress.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/Logger.o -c /home/zhouxxx/MYMUDUO/Logger.cc",
+  "file": "/home/zhouxxx/MYMUDUO/Logger.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/Poller.o -c /home/zhouxxx/MYMUDUO/Poller.cc",
+  "file": "/home/zhouxxx/MYMUDUO/Poller.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/TcpServer.o -c /home/zhouxxx/MYMUDUO/TcpServer.cc",
+  "file": "/home/zhouxxx/MYMUDUO/TcpServer.cc"
+},
+{
+  "directory": "/home/zhouxxx/MYMUDUO/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS  -g -fPIC   -o CMakeFiles/mymuduo.dir/Timestamp.o -c /home/zhouxxx/MYMUDUO/Timestamp.cc",
+  "file": "/home/zhouxxx/MYMUDUO/Timestamp.cc"
+}
+]
