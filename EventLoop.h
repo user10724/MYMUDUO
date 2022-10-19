@@ -37,6 +37,7 @@ public:
 
     //EventLoop的方法 =》 poller的方法
     void updateChannel(Channel* channel);
+    void removeChannel(Channel *channel);
     bool hasChannel(Channel * channel);
 
     //判断EventLoop对象是否在自己的线程里面
@@ -58,15 +59,15 @@ private:
     Timestamp pollReturnTime_;  //poller返回事件的channels的时间点
     std::unique_ptr<Poller> poller_;
 
-    int wakeupFd_;  //主要作用，当mainLOOP获取一个新用户的channel,通过轮询算法选择一个subloop
+    int wakeupFd_;  //主要作用，当mainLoop获取一个新用户的channel,通过轮询算法选择一个subloop
                     //通过改成员唤醒subloop处理channel
     std::unique_ptr<Channel> wakeupChannel_;
 
     ChannelList activeChannels_;
-    Channel *currentActiveChannel_;
+    //Channel *currentActiveChannel_;
 
     std::atomic_bool callingPendingFuncors_;    //标识当前loop是否有需要执行的回调操作
-    std::vector<Functor> pendingFunctors_;
+    std::vector<Functor> pendingFunctors_;         //存储loop徐执行的所有回调操作
     std::mutex mutex_;      //互斥锁，用来保护上面vector容器的线程安全操作
 };
 

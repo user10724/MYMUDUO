@@ -32,7 +32,7 @@ public:
         writeCallback_ =std::move(cb);
     }
 
-    void setcLOSECallback(EventCallback cb){
+    void setCloseCallback(EventCallback cb){
         closeCallback_ =std::move(cb);
     }
 
